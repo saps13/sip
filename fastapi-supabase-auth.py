@@ -47,9 +47,9 @@ app.add_middleware(
 )
 
 # Supabase configuration
-SUPABASE_ANON_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Iml4a3Z4Z216ZGlnYWVvb2lhbmlwIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDk4MDUwNTEsImV4cCI6MjA2NTM4MTA1MX0.6cI3Y-JIt2id3B34p0YHwmHkvonYMZCyVJvPGYl-hDc"
-SUPABASE_URL = "https://ixkvxgmzdigaeooianip.supabase.co"
-SUPABASE_SERVICE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Iml4a3Z4Z216ZGlnYWVvb2lhbmlwIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc0OTgwNTA1MSwiZXhwIjoyMDY1MzgxMDUxfQ.bf7hCjwWv5bWWevlyggSCyQVAZPU-aYwvuOZKgBn-ok"
+SUPABASE_ANON_KEY = ""
+SUPABASE_URL = ""
+SUPABASE_SERVICE_KEY = ""
 
 # Initialize Supabase clients
 supabase: Client = create_client(SUPABASE_URL, SUPABASE_ANON_KEY)
